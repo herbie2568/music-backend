@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['localhost', 'damp-harbor-91802.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'corsheaders',
     'music_api',
     'django.contrib.admin',
